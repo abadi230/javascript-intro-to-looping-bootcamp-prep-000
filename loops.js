@@ -73,5 +73,5 @@ function doWhileLoop(number){
  
 do{
  console.log(`"I run once regardless."`);
-}while(incrementVariable() < number + 1)
+}while(incrementVariable() < number )
 }
