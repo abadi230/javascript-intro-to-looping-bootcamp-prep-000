@@ -64,14 +64,14 @@ function whileLoop(number){
        doWhileLoop(num)
          console logs "I run once regardless." 1 time when passed an integer of0 as a parameter.:
 */
-function doWhileLoop(number){
-  var i =0;
+ var i =0;
   function incrementVariable() {
   i = i + 1;
   return i;
 }
+function doWhileLoop(number){
+ 
 do{
-  
-  console.log(`"I run once regardless."`)
-}while(incrementVariable() < number)
+ console.log(`"I run once regardless."`);
+}while(incrementVariable() < number + 1)
 }
