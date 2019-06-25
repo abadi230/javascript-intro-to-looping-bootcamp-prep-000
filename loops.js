@@ -58,3 +58,9 @@ function whileLoop(number){
   return 'done'
 }
 
+/*
+
+3) loops
+       doWhileLoop(num)
+         console logs "I run once regardless." 1 time when passed an integer of0 as a parameter.:
+*/
