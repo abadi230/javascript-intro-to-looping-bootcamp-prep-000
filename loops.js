@@ -66,5 +66,11 @@ function whileLoop(number){
 */
 function doWhileLoop(number){
   var i =0;
-  function
+  function incrementVariable() {
+  i = i + 1;
+  return i;
+}
+do{
+  console.log()
+}
 }
