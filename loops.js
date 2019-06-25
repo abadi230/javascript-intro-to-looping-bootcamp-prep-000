@@ -63,15 +63,17 @@ function whileLoop(number){
 3) loops
        doWhileLoop(num)
          console logs "I run once regardless." 1 time when passed an integer of0 as a parameter.:
-*/
+4) loops
+       doWhileLoop(num)
+         console logs "I run once regardless." 10 times when passed an integer of 10 as a parameter.:*/
  
-// function doWhileLoop(number){
-// var i =0;
-//   function incrementVariable() {
-//   i = i + 1;
-//   return i;
-// }
-// do{
-// console.log(`"I run once regardless."`);
-// }while(incrementVariable() < number )
-// }
+function doWhileLoop(number){
+var i =0;
+  function incrementVariable() {
+  i = i + 1;
+  return i;
+}
+do{
+console.log(`"I run once regardless."`);
+}while(incrementVariable() < number )
+}
