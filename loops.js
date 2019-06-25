@@ -52,6 +52,7 @@ function forLoop(arr){
          
 function whileLoop(number){
   while(number > 0){
+    number--
     console.log(number)
   }
 }
