@@ -55,4 +55,5 @@ function whileLoop(number){
     number--
     console.log(number)
   }
+  return 'done'
 }
